@@ -19,15 +19,15 @@ namespace IfOpdracht3
 
 
 
-            if (false)//test hier of je chocola AND vanilla hebt gekozen 
+            if (chocola == true && vanilla == true)//test hier of je chocola AND vanilla hebt gekozen 
             {
                 Console.WriteLine("hier is je chocola vanilla ijsje"); 
             }
-            else if (false)//test hier of je chocola AND aardbei hebt gekozen 
+            else if (chocola == true && aardbei == true)//test hier of je chocola AND aardbei hebt gekozen 
             {
                 Console.WriteLine("hier is je chocola aardbei ijsje"); 
             }
-            else if (false)//test hier of je vanilla AND aardbei hebt gekozen 
+            else if (vanilla == true && aardbei == true)//test hier of je vanilla AND aardbei hebt gekozen 
             {
                 Console.WriteLine("hier is je vanilla aardbei ijsje"); 
             }
