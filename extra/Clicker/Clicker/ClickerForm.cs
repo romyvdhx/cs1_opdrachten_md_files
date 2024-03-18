@@ -31,7 +31,8 @@ namespace Clicker
 
         private void Form1_Click(object? sender, EventArgs e)
         {
-			//tel hier scorePlus bij score op
+            //tel hier scorePlus bij score op
+            score = score + scorePlus;
             MouseEventArgs? m = e as MouseEventArgs;
             if (m != null)
             {
@@ -49,8 +50,8 @@ namespace Clicker
             {
                 PopOver coin = coins[i];
 
-				//haal hier 3 van coin.y af
-                coin.y ????
+                //haal hier 3 van coin.y af
+                coin.y -= 3;
                 if (DateTime.Now>=coin.time )
                 {
                     coins.RemoveAt(i);

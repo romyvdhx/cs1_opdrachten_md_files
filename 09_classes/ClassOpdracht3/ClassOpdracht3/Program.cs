@@ -14,7 +14,7 @@ namespace ClassOpdracht3
             //2) maak hier een nieuwe instance aan van GameEngine
 
             //3)  plak deze function hieronder in GameEngine:
-           
+
             /*
                     internal void RunGameLoop()
                     { 
@@ -27,7 +27,8 @@ namespace ClassOpdracht3
              */
 
             //4) roep hier de rungameloop aan 
-           
+            GameEngine engine = new GameEngine();
+            engine.RunGameLoop();
 
 
         }
