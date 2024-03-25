@@ -15,7 +15,11 @@ namespace FunctionOpdracht4
             Console.WriteLine(result);
         }
 
-
+        private int AddNumbers(int argument1, int argument2, int argument3)
+        {
+            int add = argument1 + argument2 + argument3;
+            return add;
+        }
         //1) maak hier een function AddNumbers die 3 argumenten heeft
         //2) de function telt de 3 argumenten bij elkaar op en geeft dat als resultaat terug
 
