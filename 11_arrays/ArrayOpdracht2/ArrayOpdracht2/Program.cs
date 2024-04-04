@@ -8,7 +8,7 @@ namespace ArrayOpdracht2
         {
             Console.WriteLine("Hello, World!");
             
-            int[] array; //maak hier een nieuwe array, met vulling gebruik  new int[] { hier je cijfers}; zorg dat je minimaal 6 cijfers hebt
+            int[] array = new int[] {7, 56, 33, 37, 930, 32}; //maak hier een nieuwe array, met vulling gebruik  new int[] { hier je cijfers}; zorg dat je minimaal 6 cijfers hebt
 
             //kijk nu wat er gebeurt als je het programma runt
             for (int i = 0; i < array.Length; i++)
