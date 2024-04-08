@@ -10,8 +10,8 @@ namespace PropertyOpdracht1
 
             Persoon persoon = new Persoon();
 
-            persoon.Naam = ?? ;//maak deze string aan als property in persoon, gebruik get set
-            persoon.Leeftijd = ?? ;//maak deze int aan als property in persoon, gebruik get set
+            persoon.Naam = "Link";//maak deze string aan als property in persoon, gebruik get set
+            persoon.Leeftijd = 127;//maak deze int aan als property in persoon, gebruik get set
         }
     }
 }
